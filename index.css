@@ -17,7 +17,7 @@
 } */
 
 .footer {
-  /* position: fixed; */
+  position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
@@ -66,4 +66,26 @@ div.calculator {
   margin-bottom: 10px;
   height: 70px;
   border-radius: 7px;
+}
+
+.top-portion{
+  margin-bottom: 5px;
+}
+
+.small-text{
+  font-size: 10px;
+}
+
+.battery{
+  background-color: #555346;
+  margin-top: 10px;margin-right: 5px;
+  /* color: #70716f; */
+
+}
+
+.battery-in{
+  border-color: #70716f;
+  border-width: thin;
+  border-right: 1px;
+  border-radius: 2px;
 }
